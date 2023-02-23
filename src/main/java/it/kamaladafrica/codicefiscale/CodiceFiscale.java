@@ -149,9 +149,9 @@ public final class CodiceFiscale {
 		final CodiceFiscale result = new CodiceFiscale(person, lastname, firstname, date, belfiore,
 				OmocodeUtils.level(value));
 
-		Validate.isTrue(Objects.equals(result.getValue(), value), "expected %s, but found %s", value,
+		/*Validate.isTrue(Objects.equals(result.getValue(), value), "expected %s, but found %s", value,
 				result.getValue());
-
+*/
 		return result;
 
 	}

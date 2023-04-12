@@ -5,9 +5,12 @@ import java.time.LocalDate;
 import lombok.Builder;
 import lombok.NonNull;
 import lombok.Value;
+import lombok.AllArgsConstructor;
+import lombok.AccessLevel;
 
 @Value
 @Builder
+@AllArgsConstructor(access = AccessLevel.PUBLIC)
 public class Person {
 
 	@NonNull

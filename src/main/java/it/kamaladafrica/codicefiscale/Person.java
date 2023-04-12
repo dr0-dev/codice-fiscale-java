@@ -11,17 +11,17 @@ import lombok.Value;
 public class Person {
 
 	@NonNull
-	String firstname;
+	public String firstname;
 
 	@NonNull
-	String lastname;
+	public String lastname;
 
 	@NonNull
-	LocalDate birthDate;
+	public LocalDate birthDate;
 
 	@NonNull
-	City city;
+	public City city;
 
-	boolean isFemale;
+	public boolean isFemale;
 
 }

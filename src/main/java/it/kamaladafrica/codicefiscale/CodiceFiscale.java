@@ -55,7 +55,7 @@ public final class CodiceFiscale {
 	@Getter(lazy = true, value = AccessLevel.PRIVATE)
 	private final String uncheckedValue = computeUncheckedValue();
 
-	private CodiceFiscale(Person person, LastnamePart lastname, NamePart firstname, DatePart date, BelfiorePart belfiore,
+	public CodiceFiscale(Person person, LastnamePart lastname, NamePart firstname, DatePart date, BelfiorePart belfiore,
 			int omocodeLevel) { 
 		this.person = person;
 		this.lastname = lastname;
